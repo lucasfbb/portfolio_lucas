@@ -1,0 +1,35 @@
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+.acordeon .trigger {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.acordeon .trigger::after {
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/acordeon.svg');
+}
+
+.acordeon .content {
+    display: none;
+}
