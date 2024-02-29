@@ -90,6 +90,53 @@ header .title {
     background-image: url('/assets/img/icons/wpp.svg')
 }
 
+.informacoes .linkedin{
+    margin:0;
+     
+}
+
+.informacoes .linkedin .link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.informacoes .linkedin .link:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.informacoes .linkedin::before {
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0rem;
+    background-image: url('/assets/img/icons/linkedin.svg')
+}
+
+.informacoes .wpp .telefone {
+    color:white;
+    text-decoration: none;
+}
+
+.informacoes .wpp .telefone:hover {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+.informacoes .msg .email {
+    color:white;
+    text-decoration: none;
+}
+
+.informacoes .msg .email:hover {
+    color: white;
+    text-decoration: underline;
+}
 
 @media only screen and (min-width:768px){
 

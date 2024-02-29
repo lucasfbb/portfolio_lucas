@@ -4,7 +4,14 @@
     width: 100%;
     border: 1px solid white;
     border-radius: 1rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
+    transition: 0.250s;
+}
+
+.acordeon.open,
+.acordeon:hover {
+    background-color: #55569E;
+    border-color: #55569E;
 }
 
 .acordeon .trigger {
@@ -20,16 +27,40 @@
     border: none;
 }
 
-.acordeon .trigger::after {
+.acordeon .trigger:hover{
+    cursor: pointer;
+}
+
+/* SETA DO TRIGGER (BOTÃO) */
+.acordeon .trigger::after { 
     content: '';
     display: inline-block;
     width: 2rem;
-    height: 1.5rem;
+    height: 1.2rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('/assets/img/icons/acordeon.svg');
+    transition: .25s;
+}
+
+.acordeon.open .trigger::after {
+    transform: rotate(180deg);
 }
 
 .acordeon .content {
-    display: none;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.acordeon .content li{
+    margin: 0.5rem 0;
+}
+
+.acordeon.open .content {
+    display: block;
+    padding: 0 1rem 1rem 2rem;
+    height: auto;
+    opacity: 1;
 }

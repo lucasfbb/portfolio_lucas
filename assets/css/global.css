@@ -49,6 +49,26 @@ body{
     color: #ffff;
 }
 
+/* .telefone {
+    color:white;
+    text-decoration: none;
+}
+
+.telefone:hover {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+.email {
+    color:white;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: white;
+    text-decoration: underline;
+} */
+
 
 @media only screen and (min-width:600px){
     .main::after{
