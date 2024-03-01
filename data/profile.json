@@ -1,0 +1,83 @@
+{
+    "name": "Lucas",
+    "photo": "https://avatars.githubusercontent.com/u/107235365?v=4",
+    "job": "Desenvolvedor de Software",
+    "location": "Rio de Janeiro - BR",
+    "phone": "(21) 972943363",
+    "email": "lucasfirmino2612@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Nodejs",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        },
+        {
+          "name": "Java",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+        },
+        {
+          "name": "React",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        },
+        {
+          "name": "Html",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+        },
+        {
+          "name": "Postgresql",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        },
+        {
+          "name": "C",
+          "logo": "https://raw.githubusercontent.com/lucasfbb/js-developer-portfolio/main/data/imgs/icons8-c-48.png"
+        },
+        {
+          "name": "C++",
+          "logo": "https://raw.githubusercontent.com/lucasfbb/js-developer-portfolio/main/data/imgs/cplus.png"
+        },
+        {
+          "name": "MySQL",
+          "logo": "https://raw.githubusercontent.com/lucasfbb/js-developer-portfolio/main/data/imgs/mysql2.png"
+        }
+      ],
+      "softSkills": [
+        "Resolução de problemas",
+        "Trabalho em equipe",
+        "Liderança",
+        "Criatividade",
+        "Comunicação eficaz"
+      ]
+    },
+    "languages": [
+      "Português (BR)",
+      "Inglês (avançado)",
+      "Espanhol (básico)"
+    ],
+    "portfolio": [
+      {
+        "name": "YJL Stock Monitoring | React, Node, JavaScript, MongoDB",
+        "url": "https://github.com/lucasfbb/YJL?tab=readme-ov-file#yjl-stock-monitoring",
+        "github": true
+      },
+      {
+        "name": "Sistemas Distribuídos | Python, C, Java",
+        "url": "https://github.com/lucasfbb/Sistemas_Distribuidos",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Software Developer / PGM",
+        "period": "Jan 2024 - o momento",
+        "description": "Estagiário em desenvolvimento na PGM-RJ - Procuradoria geral do município do Rio de Janeiro"
+      }
+    ]
+  }
