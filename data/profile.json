@@ -1,10 +1,11 @@
 {
     "name": "Lucas",
     "photo": "https://avatars.githubusercontent.com/u/107235365?v=4",
-    "job": "Desenvolvedor de Software",
+    "perfil": "Desenvolvedor de Software",
     "location": "Rio de Janeiro - BR",
-    "phone": "(21) 972943363",
-    "email": "lucasfirmino2612@gmail.com",
+    "wpp": "(21) 972943363",
+    "msg": "lucasfirmino2612@gmail.com",
+    "git": "lucasfirminobatista",
     "skills": {
       "hardSkills": [
         {
