@@ -64,14 +64,18 @@
     ],
     "portfolio": [
       {
-        "name": "YJL Stock Monitoring | React, Node, JavaScript, MongoDB",
+        "name": "<b> YJL Stock Monitoring </b> | React, Node, JavaScript, MongoDB",
+        "caminho": "YJL",
         "url": "https://github.com/lucasfbb/YJL?tab=readme-ov-file#yjl-stock-monitoring",
-        "github": true
+        "github": true,
+        "description" : "Uma plataforma web de monitoramento de investimentos que tem por objetivo auxiliar o usuário na tomada de decisão de novos aportes. Feito em grupo com mais outros dois desenvolvedores estudantes."
       },
       {
-        "name": "Sistemas Distribuídos | Python, C, Java",
+        "name": "<b> Sistemas Distribuídos </b> | Python, C, Java",
+        "caminho": "Sistemas_Distribuídos",
         "url": "https://github.com/lucasfbb/Sistemas_Distribuidos",
-        "github": true
+        "github": true,
+        "description": "Projetos relacionados a implementações de sistemas distribuídos, implementando e resolvendo problemas clássicos de sincronização entre processos, além da implementação de 'Remote Method Invocation (RMI)'."
       }
     ],
     "professionalExperience": [
