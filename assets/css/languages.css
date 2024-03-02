@@ -26,6 +26,6 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/certo.svg');
+    background-image: url('../img/icons/certo.svg');
     margin-right: .5rem;
 }
