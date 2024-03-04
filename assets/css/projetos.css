@@ -47,10 +47,28 @@
 .projetos li a {
     color: #ffff;
     text-decoration: none;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
 }
 
 .projetos li a:hover {
     color: #ffff;
     text-decoration: underline;
 }
+
+@media only screen and (max-width:437px){
+
+   .projetos li a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+   }
+
+}
+
+
 
